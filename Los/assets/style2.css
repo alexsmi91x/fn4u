@@ -1,0 +1,202 @@
+@font-face {
+  font-family: "Burbank";
+  src: url('BurbankBigRegularTT-Black.woff2') format("woff2"),
+    url('BurbankBigRegularTT-Black.woff') format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@keyframes pattern {
+  0% {
+    transform: translate3d(0%, 0%, 1px);
+  }
+
+  50% {
+    transform: translate3d(-50%, -50%, 1px);
+  }
+
+  100% {
+    transform: translate3d(0%, 0%, 1px);
+  }
+}
+
+.text-shadow {
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.10);
+}
+
+.text-shadow-md {
+  text-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 2px 4px rgba(0, 0, 0, 0.08);
+}
+
+.text-shadow-lg {
+  text-shadow: 0 15px 30px rgba(0, 0, 0, 0.2), 0 5px 15px rgba(0, 0, 0, 0.08);
+}
+
+.text-shadow-none {
+  text-shadow: none;
+}
+
+.STROKE {
+  -webkit-text-stroke: 1px black;
+  text-stroke: 1px black;
+}
+
+body {
+  background-image: url('mobile-header-1.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+@media (min-width: 640px) {
+
+  body {
+    background-image: url('desktop-header-1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+
+}
+
+.S2 {
+  background-color: rgb(68, 15, 104);
+}
+
+.S3 {
+  background-image: url('beam-2.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.Burbank {
+  font-family: "Burbank";
+  text-transform: uppercase;
+}
+
+.TEST {
+  clip-path: polygon(0% 16%, 100% 6%, 98% 100%, 2% 90%);
+  padding: 0.3875em 1em 0.125em;
+  font-family: "Burbank";
+}
+
+.FORTNITE-GREEN-BG {
+  background-color: rgb(139, 255, 58);
+}
+
+.FORTNITE-PINK {
+  color: rgb(244, 0, 144);
+}
+
+.FORTNITE-PINK-BORDER {
+  border-color: rgb(244, 0, 144);
+}
+
+.FORTNITE-YELLOW-BORDER {
+  border-color: #ff0;
+}
+
+.FORTNITE-PINK-BG {
+  background-color: rgb(244, 0, 144);
+}
+
+.FORTNITE-YELLOW {
+  color: #ff0;
+}
+
+.FORTNITE-YELLOW-BG {
+  background-color: #ff0;
+}
+
+.CPOLYGON {
+  clip-path: polygon(0% 16%, 100% 6%, 98% 100%, 2% 90%);
+  padding: 1.25em 1em 0.5em;
+}
+
+.CPOLYGON-2 {
+  clip-path: polygon(0% 16%, 100% 6%, 98% 100%, 2% 90%);
+  padding: 1em 1em 0.5em;
+}
+
+.CPOLYGON-3 {
+  background-color: rgb(244, 0, 144);
+  clip-path: polygon(0% 16%, 100% 6%, 98% 100%, 4% 90%);
+  padding: 0.75em 0.5em 0.5em;
+}
+
+.CPOLYGON-4 {
+  background-color: rgb(244, 0, 144);
+  clip-path: polygon(0% 12%, 100% 6%, 98% 100%, 4% 92%);
+  padding: 2rem 1rem;
+}
+
+.CPOLYGON-5 {
+  background-color: #ff0;
+  clip-path: polygon(0% 12%, 100% 6%, 98% 100%, 4% 92%);
+  padding: 2.5rem 1rem;
+}
+
+.CPOLYGON-6 {
+  clip-path: polygon(0% 16%, 100% 6%, 98% 100%, 2% 90%);
+  padding: 2em 0.5em 1em;
+}
+
+.patt {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  overflow: hidden;
+}
+
+.ern {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 200%;
+  height: 400%;
+  background: url('pattern.png') 0px 0px / 250px repeat;
+  z-index: 100;
+  animation: 100s linear 0s infinite normal both running pattern;
+}
+
+input {
+  text-align: center;
+  text-align-last: center;
+}
+
+.noUi-horizontal .noUi-handle {
+  background-color: #ff0 !important;
+}
+
+.noUi-handle:before,
+.noUi-handle:after {
+  background: #000;
+}
+
+.noUi-handle {
+  box-shadow: none;
+  border: 1px solid black;
+}
+
+small {
+  font-size: 60% !important;
+  vertical-align: middle;
+}
+
+big {
+  vertical-align: middle;
+  font-size: 150%;
+}
+
+.big-2 {
+  font-size: 90% !important;
+}
+
+.big-3 {
+  font-size: 120% !important;
+}
