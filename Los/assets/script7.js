@@ -179,7 +179,7 @@ function VERIFY() {
     if (se === 1) {
         ion.sound.play("a1");
     }
-    _Jl();
+   
 }
 
 function handleApiResponse(DATA) {
